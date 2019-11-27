@@ -1,0 +1,30 @@
+object FraBase: TFraBase
+  Left = 0
+  Top = 0
+  Width = 644
+  Height = 372
+  Align = alClient
+  TabOrder = 0
+  ExplicitWidth = 451
+  ExplicitHeight = 305
+  object PnlMain: TPanel
+    Left = 0
+    Top = 0
+    Width = 644
+    Height = 372
+    Align = alClient
+    BevelOuter = bvNone
+    Color = clWhite
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
+    ParentBackground = False
+    ParentFont = False
+    ShowCaption = False
+    TabOrder = 0
+    ExplicitWidth = 451
+    ExplicitHeight = 305
+  end
+end
